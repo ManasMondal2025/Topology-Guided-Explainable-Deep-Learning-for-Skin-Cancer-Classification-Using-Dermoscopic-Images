@@ -1,0 +1,8 @@
+SHAP feature contributions (towards 'malignant'):
+           circularity: +0.0000  -> increases malignant risk
+   boundary_complexity: +0.0000  -> increases malignant risk
+           compactness: +0.0000  -> increases malignant risk
+               betti_1: +0.0000  -> increases malignant risk
+     fractal_dimension: +0.0000  -> increases malignant risk
+               betti_0: +0.0000  -> increases malignant risk
+             convexity: +0.0000  -> decreases malignant risk
