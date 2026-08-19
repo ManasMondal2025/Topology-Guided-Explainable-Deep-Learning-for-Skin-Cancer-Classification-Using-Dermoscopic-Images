@@ -1,0 +1,38 @@
+# TopologySkinCancer requirements
+#
+# IMPORTANT — install PyTorch first, matching your server's CUDA version:
+#   Visit https://pytorch.org/get-started/locally/ and use the command it
+#   generates for your OS + CUDA version, e.g. for CUDA 12.1:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Then install everything else below:
+#   pip install -r requirements.txt
+
+# --- Deep learning -----------------------------------------------------
+torch>=2.1
+torchvision>=0.16
+timm>=1.0                        # ViT-B/16, EfficientNet-B3 backbones
+segmentation-models-pytorch>=0.3 # U-Net decoder + pretrained encoders (resnet34/50, efficientnet, timm zoo)
+
+# --- Topological Data Analysis ------------------------------------------
+gudhi>=3.9           # cubical complex persistent homology, Betti numbers
+ripser>=0.6          # Vietoris-Rips persistence on the boundary point cloud
+persim>=0.3          # persistence images / landscapes, built on scikit-tda
+
+# --- Explainability ------------------------------------------------------
+grad-cam>=1.5        # pytorch-grad-cam (Grad-CAM for ViT & CNN backbones)
+shap>=0.44           # SHAP KernelExplainer for topological feature attribution
+
+# --- Image processing / augmentation ------------------------------------
+opencv-python-headless>=4.9
+albumentations>=1.4
+scikit-image>=0.22
+
+# --- Data / general ML ---------------------------------------------------
+numpy>=1.26,<2.5
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# --- Utilities -------------------------------------------------------------
+tqdm>=4.66

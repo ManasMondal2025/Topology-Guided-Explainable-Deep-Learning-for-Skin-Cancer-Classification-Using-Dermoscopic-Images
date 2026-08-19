@@ -1,0 +1,173 @@
+TopologySkinCancer_clean
+├── backbone
+│   ├── cnn_backbone.py
+│   ├── efficientnet.py
+│   ├── __init__.py
+│   ├── mobilenet.py
+│   └── vit.py
+├── checkpoints
+├── config.py
+├── data
+│   ├── datasets.py
+│   ├── __init__.py
+│   └── topo_wrapper.py
+├── datasets
+│   └── README.md
+├── download_data.sh
+├── evaluate.py
+├── experiments
+│   └── baseline
+│       ├── checkpoints
+│       └── logs
+├── explainability
+│   ├── gradcam.py
+│   ├── __init__.py
+│   └── shap_explain.py
+├── fusion
+│   ├── attention_fusion.py
+│   ├── gated_fusion.py
+│   └── __init__.py
+├── inference.py
+├── models
+│   ├── hybrid_model.py
+│   └── __init__.py
+├── outputs
+│   ├── efficientnet_b3_frozen_ph2_results.json
+│   ├── efficientnet_b3_partial2_ph2_results.json
+│   ├── efficientnet_b3_partial2_results.json
+│   ├── efficientnet_b3_partial4_ph2_results.json
+│   ├── efficientnet_b3_partial4_results.json
+│   ├── efficientnet_b3_partial6_results.json
+│   ├── efficientnet_b3_results.json
+│   ├── final_example_prediction_efficientnet_b3
+│   │   ├── gradcam_heatmap.png
+│   │   ├── lesion_mask.png
+│   │   ├── prediction.json
+│   │   └── shap_report.txt
+│   ├── final_example_prediction_efficientnet_b3_partial2
+│   │   ├── ISIC_0025964
+│   │   ├── ISIC_0026120
+│   │   ├── ISIC_0026993
+│   │   ├── ISIC_0027190
+│   │   ├── ISIC_0028086
+│   │   ├── ISIC_0028412
+│   │   ├── ISIC_0030417
+│   │   ├── ISIC_0030623
+│   │   ├── ISIC_0031023
+│   │   └── ISIC_0031177
+│   ├── final_example_prediction_mobilenet_v3
+│   │   ├── gradcam_heatmap.png
+│   │   ├── lesion_mask.png
+│   │   ├── prediction.json
+│   │   └── shap_report.txt
+│   ├── final_example_prediction_mobilenet_v3_partial2
+│   │   ├── ISIC_0025964
+│   │   ├── ISIC_0026120
+│   │   ├── ISIC_0026993
+│   │   ├── ISIC_0027190
+│   │   ├── ISIC_0028086
+│   │   ├── ISIC_0028412
+│   │   ├── ISIC_0030417
+│   │   ├── ISIC_0030623
+│   │   ├── ISIC_0031023
+│   │   └── ISIC_0031177
+│   ├── final_example_prediction_vit_b16
+│   │   ├── gradcam_heatmap.png
+│   │   ├── lesion_mask.png
+│   │   ├── prediction.json
+│   │   └── shap_report.txt
+│   ├── final_example_prediction_vit_b16_new
+│   │   ├── gradcam_heatmap.png
+│   │   ├── lesion_mask.png
+│   │   ├── prediction.json
+│   │   └── shap_report.txt
+│   ├── final_example_prediction_vit_b16_new2
+│   │   ├── gradcam_heatmap.png
+│   │   ├── ISIC_0025964
+│   │   ├── ISIC_0026120
+│   │   ├── ISIC_0026993
+│   │   ├── ISIC_0027190
+│   │   ├── ISIC_0028086
+│   │   ├── ISIC_0028412
+│   │   ├── ISIC_0030417
+│   │   ├── ISIC_0030623
+│   │   ├── ISIC_0031023
+│   │   ├── ISIC_0031177
+│   │   ├── lesion_mask.png
+│   │   ├── prediction.json
+│   │   └── shap_report.txt
+│   ├── logs
+│   │   ├── predict_masks.log
+│   │   ├── train.log
+│   │   └── train_unet.log
+│   ├── mobilenet_v3_frozen_ph2_results.json
+│   ├── mobilenet_v3_partial2_ph2_results.json
+│   ├── mobilenet_v3_partial2_results.json
+│   ├── mobilenet_v3_partial4_ph2_results.json
+│   ├── mobilenet_v3_partial4_results.json
+│   ├── mobilenet_v3_partial6_results.json
+│   ├── mobilenet_v3_results.json
+│   ├── qualitative_efficientnet_b3_partial2
+│   │   ├── ISIC_0024679
+│   │   ├── ISIC_0025550
+│   │   ├── ISIC_0027239
+│   │   ├── ISIC_0027342
+│   │   ├── ISIC_0029811
+│   │   ├── ISIC_0031072
+│   │   ├── ISIC_0031721
+│   │   ├── ISIC_0032166
+│   │   ├── ISIC_0032976
+│   │   └── ISIC_0034128
+│   ├── qualitative_mobilenet_v3_partial2
+│   │   ├── ISIC_0024679
+│   │   ├── ISIC_0025550
+│   │   ├── ISIC_0027239
+│   │   ├── ISIC_0027342
+│   │   ├── ISIC_0029811
+│   │   ├── ISIC_0031072
+│   │   ├── ISIC_0031721
+│   │   ├── ISIC_0032166
+│   │   ├── ISIC_0032976
+│   │   └── ISIC_0034128
+│   ├── qualitative_vit_b16_partial2
+│   │   ├── ISIC_0024679
+│   │   ├── ISIC_0025550
+│   │   ├── ISIC_0027239
+│   │   ├── ISIC_0027342
+│   │   ├── ISIC_0029811
+│   │   ├── ISIC_0031072
+│   │   ├── ISIC_0031721
+│   │   ├── ISIC_0032166
+│   │   ├── ISIC_0032976
+│   │   └── ISIC_0034128
+│   ├── vit_b16_frozen_ph2_results.json
+│   ├── vit_b16_partial1_ph2_results.json
+│   ├── vit_b16_partial1_results.json
+│   ├── vit_b16_partial2_ph2_results.json
+│   ├── vit_b16_partial2_results.json
+│   ├── vit_b16_partial3_ph2_results.json
+│   ├── vit_b16_partial3_results.json
+│   ├── vit_b16_partial4_ph2_results.json
+│   ├── vit_b16_partial4_results.json
+│   └── vit_b16_results.json
+├── PROJECT_TREE.txt
+├── README.md
+├── requirements.txt
+├── segmentation
+│   ├── __init__.py
+│   ├── predict_masks.py
+│   ├── train_unet.py
+│   └── unet.py
+├── topology
+│   ├── extract.py
+│   ├── gudhi_features.py
+│   ├── __init__.py
+│   └── persistence.py
+├── train.py
+└── utils
+    ├── common.py
+    ├── __init__.py
+    ├── metrics.py
+    └── transforms.py
+
+87 directories, 84 files
