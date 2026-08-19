@@ -386,12 +386,10 @@ The following qualitative results are generated using the **EfficientNet-B3 Part
 | Image ID | Prediction | Confidence | Malignant Probability |
 |---|---|---:|---:|
 | ISIC_0024679 | 🔴 malignant | 84.02% | 84.02% |
-| ISIC_0025550 | 🔴 malignant | 55.69% | 55.69% |
 | ISIC_0027239 | 🔴 malignant | 89.20% | 89.20% |
 | ISIC_0027342 | 🟢 benign | 89.31% | 10.69% |
 | ISIC_0029811 | 🔴 malignant | **98.98%** | **98.98%** |
 | ISIC_0031072 | 🟢 benign | **91.85%** | 8.15% |
-| ISIC_0031721 | 🔴 malignant | 93.26% | 93.26% |
 | ISIC_0032166 | 🟢 benign | 86.50% | 13.50% |
 | ISIC_0032976 | 🔴 malignant | 94.27% | 94.27% |
 | ISIC_0034128 | 🟢 benign | 69.52% | 30.48% |
@@ -410,19 +408,6 @@ The following qualitative results are generated using the **EfficientNet-B3 Part
 <tr>
 <td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0024679/gradcam_heatmap.png" width="300"></td>
 <td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0024679/lesion_mask.png" width="300"></td>
-</tr>
-</table>
-
-### ISIC_0025550 — Malignant · 55.69%
-
-<table>
-<tr>
-<td><b>Grad-CAM</b></td>
-<td><b>Lesion Mask</b></td>
-</tr>
-<tr>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0025550/gradcam_heatmap.png" width="300"></td>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0025550/lesion_mask.png" width="300"></td>
 </tr>
 </table>
 
@@ -475,19 +460,6 @@ The following qualitative results are generated using the **EfficientNet-B3 Part
 <tr>
 <td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0031072/gradcam_heatmap.png" width="300"></td>
 <td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0031072/lesion_mask.png" width="300"></td>
-</tr>
-</table>
-
-### ISIC_0031721 — Malignant · 93.26%
-
-<table>
-<tr>
-<td><b>Grad-CAM</b></td>
-<td><b>Lesion Mask</b></td>
-</tr>
-<tr>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0031721/gradcam_heatmap.png" width="300"></td>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0031721/lesion_mask.png" width="300"></td>
 </tr>
 </table>
 
