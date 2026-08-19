@@ -385,9 +385,6 @@ The following qualitative results are generated using the **EfficientNet-B3 Part
 
 | Image ID | Prediction | Confidence | Malignant Probability |
 |---|---|---:|---:|
-| ISIC_0024679 | 🔴 malignant | 84.02% | 84.02% |
-| ISIC_0027239 | 🔴 malignant | 89.20% | 89.20% |
-| ISIC_0027342 | 🟢 benign | 89.31% | 10.69% |
 | ISIC_0029811 | 🔴 malignant | **98.98%** | **98.98%** |
 | ISIC_0031072 | 🟢 benign | **91.85%** | 8.15% |
 | ISIC_0032166 | 🟢 benign | 86.50% | 13.50% |
@@ -397,45 +394,6 @@ The following qualitative results are generated using the **EfficientNet-B3 Part
 ---
 
 ## 🔥 Grad-CAM + 🎭 Lesion Mask Gallery
-
-### ISIC_0024679 — Malignant · 84.02%
-
-<table>
-<tr>
-<td><b>Grad-CAM</b></td>
-<td><b>Lesion Mask</b></td>
-</tr>
-<tr>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0024679/gradcam_heatmap.png" width="300"></td>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0024679/lesion_mask.png" width="300"></td>
-</tr>
-</table>
-
-### ISIC_0027239 — Malignant · 89.20%
-
-<table>
-<tr>
-<td><b>Grad-CAM</b></td>
-<td><b>Lesion Mask</b></td>
-</tr>
-<tr>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0027239/gradcam_heatmap.png" width="300"></td>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0027239/lesion_mask.png" width="300"></td>
-</tr>
-</table>
-
-### ISIC_0027342 — Benign · 89.31%
-
-<table>
-<tr>
-<td><b>Grad-CAM</b></td>
-<td><b>Lesion Mask</b></td>
-</tr>
-<tr>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0027342/gradcam_heatmap.png" width="300"></td>
-<td><img src="outputs/qualitative_efficientnet_b3_partial2/ISIC_0027342/lesion_mask.png" width="300"></td>
-</tr>
-</table>
 
 ### ISIC_0029811 — Malignant · 98.98%
 
