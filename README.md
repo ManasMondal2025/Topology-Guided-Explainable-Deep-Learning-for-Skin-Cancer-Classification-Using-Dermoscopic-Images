@@ -312,13 +312,6 @@ Prediction:
 
 ### Grad-CAM
 
-<img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0028412/gradcam_heatmap.png" width="360" alt="Grad-CAM for ISIC_0028412">
-
-### Lesion mask
-
-<img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0028412/lesion_mask.png" width="360" alt="Lesion segmentation mask for ISIC_0028412">
-
-
 <table>
 <tr>
 <td><b>Grad-CAM</b></td>
@@ -356,13 +349,6 @@ Prediction:
 - \(P(\text{malignant}) = 37.06\%\)
 - \(\beta_0=1,\ \beta_1=0\)
 
-### Grad-CAM
-
-<img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0030623/gradcam_heatmap.png" width="360" alt="Grad-CAM for ISIC_0030623">
-
-### Lesion mask
-
-<img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0030623/lesion_mask.png" width="360" alt="Lesion segmentation mask for ISIC_0030623">
 
 <table>
 <tr>
