@@ -318,6 +318,18 @@ Prediction:
 
 <img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0028412/lesion_mask.png" width="360" alt="Lesion segmentation mask for ISIC_0028412">
 
+
+<table>
+<tr>
+<td><b>Grad-CAM</b></td>
+<td><b>Lesion Mask</b></td>
+</tr>
+<tr>
+<td><img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0028412/gradcam_heatmap.png" width="300"></td>
+<td><img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0028412/lesion_mask.png" width="300"></td>
+</tr>
+</table>
+
 **Shape descriptors**
 
 | Feature | Value |
@@ -351,6 +363,17 @@ Prediction:
 ### Lesion mask
 
 <img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0030623/lesion_mask.png" width="360" alt="Lesion segmentation mask for ISIC_0030623">
+
+<table>
+<tr>
+<td><b>Grad-CAM</b></td>
+<td><b>Lesion Mask</b></td>
+</tr>
+<tr>
+<td><img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0030623/gradcam_heatmap.png" width="300"></td>
+<td><img src="outputs/final_example_prediction_efficientnet_b3_partial2/ISIC_0030623/lesion_mask.png"" width="300"></td>
+</tr>
+</table>
 
 **Shape descriptors**
 
