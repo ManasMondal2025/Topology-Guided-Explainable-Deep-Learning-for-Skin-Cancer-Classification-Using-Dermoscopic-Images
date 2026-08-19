@@ -1,0 +1,29 @@
+{
+  "predicted_class": "benign",
+  "confidence": 0.7184494733810425,
+  "decision_threshold": 0.5,
+  "probabilities": {
+    "benign": 0.7184494733810425,
+    "malignant": 0.2815505266189575
+  },
+  "betti_numbers": {
+    "betti_0": 1,
+    "betti_1": 0
+  },
+  "shape_descriptors": {
+    "circularity": 0.8868237435792236,
+    "compactness": 0.07057119122094646,
+    "convexity": 0.9795795795795795,
+    "fractal_dimension": 1.0256799767328848,
+    "boundary_complexity": 1.0392889431257226
+  },
+  "shap_contributions": {
+    "betti_0": -9.131021738736709e-05,
+    "betti_1": -7.931079782174847e-05,
+    "circularity": -1.9036522679406394e-05,
+    "compactness": -0.00011848082468824398,
+    "convexity": -0.00018624535163472793,
+    "fractal_dimension": -0.00011108124454950284,
+    "boundary_complexity": -1.2182212259533314e-05
+  }
+}
